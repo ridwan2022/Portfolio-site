@@ -12,11 +12,14 @@
 }
 header{
     background-color: #fff8f3;
+    background: url(../images/developer.png), url(../images/header_bg.png),#fff8f3;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
 }
 .nav{
     display: flex;
     align-items: center;
-    padding: 20px 230px;
+    padding: 50px 230px 46px 230px;
 }
 .nav ul a{
     text-decoration: none;
@@ -26,12 +29,13 @@ header{
     display: flex;
     gap: 40px;
     list-style: none;
+    margin-right: 50px;
 }
 /* .nav ul li{
     margin-top: 50px;
 } */
 .hirebtn{
-    margin-left: 50px;
+    /* margin-left: 50px; */
     padding: 15px 40px;
     background-color: rgb(255, 119, 0);
     border: 0px;
@@ -41,6 +45,7 @@ header{
     font-size: 20px;
     font-weight: bold;
 }
+
 .logo{
     align-items: center;
     justify-items: center;
@@ -49,4 +54,50 @@ header{
 }
 nav, .ul{
     margin-left: auto;
+}
+/* banner section */
+#banner{
+    margin: 0px 38px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-button{
+ /* margin-left: 50px; */
+    padding: 15px 40px;
+    background-color: white;
+    border: 0px;
+    border-radius: 5px;
+    color: #FD6E0A;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #FD6E0A;
+}
+#banner .banner-content{
+    max-width: 600px;
+}
+#banner .banner-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+#banner .banner-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+#banner .banner-content p{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.contact-button{
+    margin-left: 30px;
+}
+#banner .banner-image img{
+    max-width: 585px;
+    vertical-align: middle;
 }
